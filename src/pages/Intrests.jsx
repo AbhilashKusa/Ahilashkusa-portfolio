@@ -29,7 +29,11 @@ const Intrests = () => {
                 front-end web development world.{" "}
                 <b>I Love Open Source Software</b>
               </p>
-            </div>  
+              <p className="text-xl-justify ">
+                A Part form web development i love Gaming and I paly lots of PC
+                games, and <b>i love to Capture things.</b>
+              </p>
+            </div>
           </div>
         </div>
       </div>

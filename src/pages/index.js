@@ -1,5 +1,4 @@
 import React from "react"
-
 import "bootstrap/dist/css/bootstrap.css"
 import Layout from "../components/layout"
 import "../components/layout.css"

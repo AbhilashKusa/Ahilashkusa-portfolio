@@ -7,9 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Nav from "./Reusable/Nav"
-import Main from "./Reusable/Main"
 import About from "../pages/About"
+import Nav from "../pages/Nav"
+import Main from "../pages/Main"
 import MyRecentWork from "../pages/MyRecentWork"
 import Skills from "../pages/Skills"
 import Intrests from "../pages/Intrests"

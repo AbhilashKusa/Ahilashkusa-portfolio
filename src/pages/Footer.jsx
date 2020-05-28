@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container text-center p-5 text-white">
         <h4>
           {" "}
-          <BsCodeSlash /> With <GiSelfLove /> by Abhilash
+          <BsCodeSlash /> With <GiSelfLove /> by Abhilash kusa
         </h4>
       </div>
     </div>

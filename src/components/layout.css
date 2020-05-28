@@ -86,7 +86,7 @@ body {
   padding: 150vh;
   height: 100vh;
   padding: 2vh;
- font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 #About-bg,
@@ -94,6 +94,7 @@ body {
   background-color: var(--bg-Third);
 }
 #About-title,
+#work-title,
 #Intrests-title,
 #Skills-title,
 #title-contact {
@@ -101,6 +102,7 @@ body {
   text-decoration: underline var(--bg-primary);
   font-weight: 900vh;
   font-size: 60px;
+  text-align: center;
 }
 #main-skills {
   background-color: var(--nav-color);
@@ -143,14 +145,45 @@ body {
 }
 #Main-details {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 300px;
-  flex-direction: column;
-  opacity: 0;
+  padding-bottom: 24px;
 }
+
 #main-img {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
+}
+#down-arrow {
+  padding: 2px;
+  color: var(--bg-primary);
+  height: auto;
+  width: auto;
+}
+#main-button {
+  background-color: var(--bg-secondary);
+  padding: 1vh 5vw 1vh 5vw;
+  border-radius: 1vmin;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  border: 3px solid var(--bg-primary);
+}
+#main-button:hover {
+  background-color: var(--bg-primary);
+}
+#myrecentwork {
+  background-color: #ffffff;
+}
+#card-background {
+ text-decoration: none;
+ color: var(--bg-primary);
+}
+#text-more {
+  color: var(--bg-primary);
+
+  text-decoration: none;
 }

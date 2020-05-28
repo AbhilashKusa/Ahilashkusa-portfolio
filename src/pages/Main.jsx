@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from "react"
 import BIRDS from "vanta/dist/vanta.birds.min"
 import * as THREE from "three"
 import scrollTo from "gatsby-plugin-smoothscroll"
-import avatar from "../../images/avatar2.png"
-
-import { TweenMax, SteppedEase } from "gsap"
+import avatar from "./../images/avatar2.png"
+import { FaAngleDoubleDown } from "react-icons/fa"
+import { TweenMax, SteppedEase, TimelineMax } from "gsap"
 const Main = props => {
   // var contact = document.getElementById("#title-contact")
 
@@ -31,7 +31,7 @@ const Main = props => {
       if (vantaEffect) vantaEffect.destroy()
     }
   }, [vantaEffect])
-  function MainDetails() {
+  async function MainDetails() {
     TweenMax.to("#Main-details", 2, {
       opacity: 1,
       y: -20,
@@ -39,22 +39,30 @@ const Main = props => {
     })
     return null
   }
+
   return (
     <div ref={myRef} className="Main" id="Main">
-      <div className="text-white" id="Main-details" ref={MainDetails}>
-        <span className="text-center">Hi, my name is</span>
-        <br />
-        <img src={avatar} id="main-img" />
-        <h1>Abhilash Kusa</h1>
-        <h1>I build things for the web.</h1>
-        <button
-          className="btn-secondary"
-          onClick={() => scrollTo("#title-contact")}
-        >
-          Get In Touch
-        </button>
+      <div className="container">
+        <div className="text-white" id="Main-details" ref={MainDetails}>
+          <span className="text-center pt-5 pb-2">Hi, my name is</span>
+          <br />
+          <img src={avatar} id="main-img" className="p-2" />
+          <h1 className="pb-2 m-2">Abhilash Kusa</h1>
+          <h1 className="pb-2">I build things for the web.</h1>
+          <button
+            className="btn-secondary m-2"
+            id="main-button"
+            onClick={() => scrollTo("#title-contact")}
+          >
+            Get In Touch
+          </button>
+          <div className="m-4">
+            <a href="#About-bg" id="down-arrow">
+              <FaAngleDoubleDown />
+            </a>
+          </div>
+        </div>
       </div>
-      <div></div>
     </div>
   )
 }

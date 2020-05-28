@@ -11,6 +11,10 @@ const Nav = () => {
     e.preventDefault()
     scrollTo("#About-bg")
   }
+  const Projects= e => {
+    e.preventDefault()
+    scrollTo("#myrecentwork")
+  }
   const Skills = e => {
     e.preventDefault()
     scrollTo("#main-skills")
@@ -39,9 +43,7 @@ const Nav = () => {
     <div>
       <nav className="navbar navbar-expand-sm bg-theme text-white">
         <Link to="/" className="navbar-brand">
-          <h3  id="name">
-            Ak
-          </h3>
+          <h3 id="name">Ak</h3>
         </Link>
         <button className="navbar-toggler" type="button" onClick={OnToggle}>
           <GiHamburgerMenu />
@@ -54,7 +56,7 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-white">
+              <a href="#" className="nav-link text-white" onClick={Projects}>
                 <BsCodeSlash /> Projects
               </a>
             </li>
