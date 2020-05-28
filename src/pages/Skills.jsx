@@ -6,7 +6,6 @@ import Ract from "../images/Skills/React.svg"
 import Bootstrap from "../images/Skills/bootstrap.png"
 import tailwind from "../images/Skills/tailwind.png"
 import Npm from "../images/Skills/Npm.svg"
-import gatsby from "../images/Skills/gatsby.svg"
 import sass from "../images/Skills/sass.svg"
 
 const Skills = () => {
@@ -39,10 +38,7 @@ const Skills = () => {
             <img src={Ract} alt="React" height="48" width="48" />
             <p className="text-white">{"  "}React JS</p>
           </div>
-          <div>
-            <img src={gatsby} alt="gatsby" height="48" width="48" />
-            <p className="text-white">Gatsby JS</p>
-          </div>
+
           <div>
             <img src={tailwind} alt="tailwind" height="48" width="48" />
             <p className="text-white">TAILWIND</p>
