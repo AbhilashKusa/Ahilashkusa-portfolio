@@ -7,39 +7,27 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import "./layout.css"
+import Nav from "./Reusable/Nav"
+import Main from "./Reusable/Main"
+import About from "../pages/About"
+import MyRecentWork from "../pages/MyRecentWork"
+import Skills from "../pages/Skills"
+import Intrests from "../pages/Intrests"
+import Contact from "../pages/Contact"
+import Footer from "../pages/Footer"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <Nav />
+      <Main />
+      <About />
+      <MyRecentWork />
+      <Skills />
+      <Intrests />
+      <main> {children} </main>
+      <Contact />
+      <Footer />
     </>
   )
 }
