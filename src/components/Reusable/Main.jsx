@@ -8,10 +8,10 @@ import { TweenMax, SteppedEase } from "gsap"
 const Main = props => {
   // var contact = document.getElementById("#title-contact")
 
-  window.THREE = THREE
   const [vantaEffect, setVantaEffect] = useState(0)
   const myRef = useRef(null)
   useEffect(() => {
+    window.THREE = THREE
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
