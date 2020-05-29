@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io"
 import { FaTelegramPlane, FaLinkedin } from "react-icons/fa"
 
 export default function Contact() {
-  
+
   return (
     <div>
       <div className="section">

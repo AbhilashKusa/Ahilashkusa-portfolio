@@ -11,7 +11,7 @@ const Nav = () => {
     e.preventDefault()
     scrollTo("#About-bg")
   }
-  const Projects= e => {
+  const Projects = e => {
     e.preventDefault()
     scrollTo("#myrecentwork")
   }
@@ -51,17 +51,21 @@ const Nav = () => {
         <div className={Nav.navBarClass}>
           <ul className="navbar-nav ml-auto " id="unOrderList">
             <li className="nav-item">
-              <a href="#" className="nav-link text-white" onClick={About}>
+              <a href="/" className="nav-link text-white" onClick={About}>
                 <MdFace /> About
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-white" onClick={Projects}>
+              <a
+                href="/#projects"
+                className="nav-link text-white"
+                onClick={Projects}
+              >
                 <BsCodeSlash /> Projects
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-white" onClick={Skills}>
+              <a href="/" className="nav-link text-white" onClick={Skills}>
                 <RiCodeLine /> Skills
               </a>
             </li>

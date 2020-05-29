@@ -4,7 +4,7 @@ import * as THREE from "three"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import avatar from "./../images/avatar2.png"
 import { FaAngleDoubleDown } from "react-icons/fa"
-import { TweenMax, SteppedEase, TimelineMax } from "gsap"
+import { TweenMax, SteppedEase  } from "gsap"
 const Main = props => {
   // var contact = document.getElementById("#title-contact")
 
@@ -46,7 +46,7 @@ const Main = props => {
         <div className="text-white" id="Main-details" ref={MainDetails}>
           <span className="text-center pt-5 pb-2">Hi, my name is</span>
           <br />
-          <img src={avatar} id="main-img" className="p-2" />
+          <img src={avatar} id="main-img" className="p-2" alt="main-image"/>
           <h1 className="pb-2 m-2">Abhilash Kusa</h1>
           <h1 className="pb-2">I build things for the web.</h1>
           <button

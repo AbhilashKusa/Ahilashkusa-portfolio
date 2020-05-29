@@ -50,6 +50,7 @@
   font-weight: auto;
 }
 @media (max-width: 768px) {
+ 
   #unOrderList > li {
     display: block;
     font-size: 16px;
@@ -179,8 +180,8 @@ body {
   background-color: #ffffff;
 }
 #card-background {
- text-decoration: none;
- color: var(--bg-primary);
+  text-decoration: none;
+  color: var(--bg-primary);
 }
 #text-more {
   color: var(--bg-primary);
