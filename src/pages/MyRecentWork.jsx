@@ -1,6 +1,6 @@
-import React from "react"
-import project2 from "../images/project-2.png"
-import project1 from "../images/project-1.png"
+import React from "react";
+import project2 from "../images/project-2.png";
+import project1 from "../images/project-1.png";
 
 const MyRecentWork = () => {
   const Myprojects = [
@@ -16,7 +16,7 @@ const MyRecentWork = () => {
       ref: "https://abhilashkusa.netlify.app/",
       alt: "Resume",
     },
-  ]
+  ];
 
   return (
     <div className="section">
@@ -29,7 +29,7 @@ const MyRecentWork = () => {
               </b>
             </h1>
             <div className="  d-lg-flex  justify-content-lg-center justify-content-xl-center d-flex align-items-center justify-content-center flex-column">
-              {Myprojects.map(project => (
+              {Myprojects.map((project) => (
                 <div
                   className="card m-4"
                   style={{ width: "18rem" }}
@@ -72,6 +72,6 @@ const MyRecentWork = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default MyRecentWork
+  );
+};
+export default MyRecentWork;

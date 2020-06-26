@@ -1,9 +1,8 @@
-import React from "react"
-import { IoMdMail } from "react-icons/io"
-import { FaTelegramPlane, FaLinkedin } from "react-icons/fa"
+import React from "react";
+// import { IoMdMail } from "react-icons/io";
+// import { FaTelegramPlane, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
-
   return (
     <div>
       <div className="section">
@@ -13,9 +12,7 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="text-center col-xl-4">
-              <b className="">
-                E-Mail <IoMdMail />
-              </b>
+              <b className="">E-Mail</b>
               <br />
               <a
                 href="mailto:kusa.abhilash@gmail.com"
@@ -26,40 +23,30 @@ export default function Contact() {
               </a>
             </div>
             <div className="text-center col-xl-4">
-              <b className="">
-                Telgram <FaTelegramPlane />
-              </b>
+              <b className="">Telgram</b>
               <br />
               <a
                 href="https://t.me/Abhilashkusa"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <b>
-                  {" "}
-                  @AbhilashKusa <FaTelegramPlane />
-                </b>
+                <b> @AbhilashKusa</b>
               </a>
             </div>
             <div className="text-center col-xl-4">
-              <b className="">
-                Linked in <FaLinkedin />
-              </b>
+              <b className="">Linked in</b>
               <br />
               <a
                 href="https://www.linkedin.com/in/kusa-abhilash/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <b>
-                  {" "}
-                  AbhilashKusa <FaLinkedin />
-                </b>
+                <b> AbhilashKusa</b>
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

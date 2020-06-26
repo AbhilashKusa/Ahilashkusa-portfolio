@@ -50,7 +50,6 @@
   font-weight: auto;
 }
 @media (max-width: 768px) {
- 
   #unOrderList > li {
     display: block;
     font-size: 16px;
@@ -153,7 +152,7 @@ body {
   padding-bottom: 24px;
 }
 
-#main-img {
+#main01 {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;

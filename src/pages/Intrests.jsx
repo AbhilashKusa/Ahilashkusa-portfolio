@@ -1,5 +1,5 @@
-import React from "react"
-import Aboutjpg from "./../images/Aboutme.jpg"
+import React from "react";
+import Aboutjpg from "./../images/Aboutme.jpg";
 
 const Intrests = () => {
   return (
@@ -38,6 +38,6 @@ const Intrests = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default Intrests
+  );
+};
+export default Intrests;

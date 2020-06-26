@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import Aboutjpg from "./../images/Main-About.svg"
+import Aboutjpg from "./../images/Main-About.svg";
 const About = () => {
   return (
     <div className="section" id="About-bg">
@@ -52,6 +52,6 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default About
+  );
+};
+export default About;

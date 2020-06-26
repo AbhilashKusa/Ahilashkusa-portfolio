@@ -1,12 +1,12 @@
-import React from "react"
-import JavaScript from "../images/Skills/JavaScript.svg"
-import HTML from "../images/Skills/HTML.svg"
-import Css from "../images/Skills/Css.svg"
-import Ract from "../images/Skills/React.svg"
-import Bootstrap from "../images/Skills/bootstrap.png"
-import tailwind from "../images/Skills/tailwind.png"
-import Npm from "../images/Skills/Npm.svg"
-import sass from "../images/Skills/sass.svg"
+import React from "react";
+import JavaScript from "../images/Skills/JavaScript.svg";
+import HTML from "../images/Skills/HTML.svg";
+import Css from "../images/Skills/Css.svg";
+import Ract from "../images/Skills/React.svg";
+import Bootstrap from "../images/Skills/bootstrap.png";
+import tailwind from "../images/Skills/tailwind.png";
+import Npm from "../images/Skills/Npm.svg";
+import sass from "../images/Skills/sass.svg";
 
 const Skills = () => {
   return (
@@ -56,7 +56,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
