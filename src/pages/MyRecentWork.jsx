@@ -28,7 +28,7 @@ const MyRecentWork = () => {
                 my work!
               </b>
             </h1>
-            <div className="  d-lg-flex  justify-content-lg-center justify-content-xl-center d-flex align-items-center justify-content-center flex-column">
+            <div className="d-md-inline-flex d-sm-flex d-lg-inline-flex  p-2 align-items-end justify-content-center">
               {Myprojects.map((project) => (
                 <div
                   className="card m-4"

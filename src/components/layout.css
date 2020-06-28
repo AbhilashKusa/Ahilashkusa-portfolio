@@ -156,9 +156,10 @@ body {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
+  opacity: 1;
 }
 #down-arrow {
-  padding: 2px;
+  padding: 1px;
   color: var(--bg-primary);
   height: auto;
   width: auto;
