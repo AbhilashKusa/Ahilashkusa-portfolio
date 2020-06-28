@@ -5,10 +5,8 @@ module.exports = {
     author: `Abhilash`,
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
